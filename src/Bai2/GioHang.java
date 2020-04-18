@@ -33,7 +33,7 @@ public class GioHang {
         System.out.println("Tổng tiền: "+tongTIen);
     }
     
-     void xuat(){
+    void xuat(){
         for (int i=0;i<DS.size();i++)
             System.out.println(DS.get(i).thongTinHH()); 
     }
