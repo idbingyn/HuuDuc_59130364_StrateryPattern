@@ -13,22 +13,20 @@ import java.util.ArrayList;
  */
 public class GioHang {
     IThanhToan hinhThucTT;
-    ArrayList<HangHoa> hH;
-    public void setHH(ArrayList<HangHoa> hH) {
-        this.hH = hH;
-    }
+    
     public void setHinhThucTt(IThanhToan hinhThucTT) {
         this.hinhThucTT = hinhThucTT;
     }
 
     ArrayList<HangHoa> DS = new ArrayList<>();
-        public ArrayList<HangHoa> getDsHangHoa() {
+    
+    public ArrayList<HangHoa> getDsHangHoa() {
         return DS;
     }
     public void setDsHangHoa(ArrayList<HangHoa> DS) {
         this.DS = DS;
     }
-        public void them(HangHoa hh){
+    public void them(HangHoa hh){
         DS.add(hh);
     }
     public void tongTien(){
