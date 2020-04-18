@@ -20,9 +20,6 @@ public class GioHang {
 
     ArrayList<HangHoa> DS = new ArrayList<>();
     
-    public ArrayList<HangHoa> getDsHangHoa() {
-        return DS;
-    }
     public void setDsHangHoa(ArrayList<HangHoa> DS) {
         this.DS = DS;
     }
